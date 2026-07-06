@@ -278,19 +278,3 @@ with tabs[7]:
 st.divider()
 st.caption("Educational Futures Market Simulator • All default values are simulated • Verify formulas and market conventions before academic or professional use.")
 '''
-
-req = """streamlit>=1.40,<2
-pandas>=2.0,<3
-numpy>=1.26,<3
-plotly>=5.20,<7
-"""
-
-readme = """# Futures Trading Learning Lab
-
-An educational Streamlit dashboard for futures derivatives.
-
-## Run locally
-
-```bash
-pip install -r requirements.txt
-streamlit run app.py
