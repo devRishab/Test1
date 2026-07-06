@@ -1,10 +1,3 @@
-from pathlib import Path
-import textwrap, zipfile, os
-
-root = Path("/mnt/data/futures_trading_lab")
-root.mkdir(exist_ok=True)
-
-app = r'''
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -277,4 +270,3 @@ with tabs[7]:
 
 st.divider()
 st.caption("Educational Futures Market Simulator • All default values are simulated • Verify formulas and market conventions before academic or professional use.")
-'''
